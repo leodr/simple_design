@@ -1,6 +1,6 @@
 name: simple_design
-description: The Simple Design library for Flutter. It provides a premade theme for light and dark brightness, aswell as providing alternatives to some material widgets for quick and good design.
-version: 1.0.1
+description: The Simple Design library for Flutter. It provides premade themes aswell as custom widgets for easy designing.
+version: 1.0.2
 author: Leo Dr <leodr.development@gmail.com>
 homepage: https://github.com/leodr/simple_design
 
