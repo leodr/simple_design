@@ -10,6 +10,14 @@ Link to the example images: https://imgur.com/a/duatQYT
 
 For general design advice I used the Material Design Specifications from material.io.
 
+## Font
+
+I recommend using the free-for-commercial font "HK Grotesk", which is used in the example
+and also defined as the standart font in the themes.
+
+But really and sans-serif, geometric or grotesk typeface should work well (for example 
+Lineto Circular).
+
 ## SDAppBar and SDSliverAppBar
 
 These two widgets are meant to be used instead of the regular AppBar/SliverAppBar.
