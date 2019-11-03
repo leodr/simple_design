@@ -9,3 +9,7 @@
 ## [1.0.2] - 16.12.2018.
 
 * Minor fixes
+
+## [1.0.3] - 16.12.2018.
+
+* Fixed a brightness bug in the AppBar

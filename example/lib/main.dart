@@ -8,7 +8,7 @@ void main() {
   runApp(MyApp());
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle(
-      statusBarColor: theme.backgroundColor.withOpacity(0.2),
+      statusBarColor: Colors.transparent,
       systemNavigationBarColor: theme.scaffoldBackgroundColor,
       systemNavigationBarDividerColor:
           theme.brightness == Brightness.light ? Colors.black : Colors.white,
@@ -56,6 +56,12 @@ class _MyHomePageState extends State<MyHomePage>
         body: CustomScrollView(
           slivers: <Widget>[
             SDSliverAppBar(
+                actions: <Widget>[
+                  IconButton(
+                    icon: Icon(Icons.star),
+                    onPressed: () {},
+                  )
+                ],
                 pinned: false,
                 snap: true,
                 floating: true,
@@ -117,8 +123,8 @@ class _MyHomePageState extends State<MyHomePage>
                                 title: "Welcome to Simple Design!",
                                 content: Text(
                                   "With Simple Design we try to make the designing "
-                                      "of your apps as simple, yet beautiful as possible, "
-                                      "so you can focus on the important aspects of your app!",
+                                  "of your apps as simple, yet beautiful as possible, "
+                                  "so you can focus on the important aspects of your app!",
                                 ),
                               )),
                     ),

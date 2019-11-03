@@ -105,6 +105,25 @@ class SimpleDesign {
           body1: TextStyle(fontSize: 16.0),
           body2: TextStyle(fontSize: 16.0, color: Colors.grey[200]),
           button: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
+          display1: TextStyle(fontSize: 20.0),
+          display2: TextStyle(fontSize: 24.0),
+          display3: TextStyle(fontSize: 28.0),
+          display4: TextStyle(fontSize: 32.0),
+          overline: TextStyle(fontSize: 14.0),
+          caption:
+              TextStyle(fontSize: 16.0, color: Colors.white.withOpacity(0.5))),
+      primaryTextTheme: TextTheme(
+          title: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 20.0, color: Colors.white),
+          body1: TextStyle(fontSize: 16.0, color: Colors.white),
+          body2: TextStyle(fontSize: 16.0, color: Colors.grey[200]),
+          button: TextStyle(
+              fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.white),
+          display1: TextStyle(fontSize: 20.0, color: Colors.white),
+          display2: TextStyle(fontSize: 24.0, color: Colors.white),
+          display3: TextStyle(fontSize: 28.0, color: Colors.white),
+          display4: TextStyle(fontSize: 32.0, color: Colors.white),
+          overline: TextStyle(fontSize: 14.0, color: Colors.white),
           caption:
               TextStyle(fontSize: 16.0, color: Colors.white.withOpacity(0.5))),
       accentColor: Colors.blueAccent,
@@ -112,6 +131,7 @@ class SimpleDesign {
       backgroundColor: Colors.grey[800],
       bottomAppBarColor: Colors.grey[850],
       brightness: Brightness.dark,
+      primaryIconTheme: IconThemeData(color: Colors.white),
       buttonColor: Colors.blueAccent,
       buttonTheme: ButtonThemeData(
           textTheme: ButtonTextTheme.primary,
